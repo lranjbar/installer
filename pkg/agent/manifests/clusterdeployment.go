@@ -33,7 +33,7 @@ func getClusterDeployment() hivev1.ClusterDeployment {
 	return cd
 }
 
-func getAgentClusterInstall() hiveext.AgentClusterInstall {
+func GetAgentClusterInstall() hiveext.AgentClusterInstall {
 	var aci hiveext.AgentClusterInstall
 	if err := GetFileData("agent-cluster-install.yaml", &aci); err != nil {
 		fmt.Println(err.Error())
