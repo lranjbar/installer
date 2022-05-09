@@ -26,8 +26,6 @@ require (
 	github.com/coreos/ignition/v2 v2.13.0
 	github.com/coreos/stream-metadata-go v0.1.8
 	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32
-	github.com/go-openapi/strfmt v0.21.2
-	github.com/go-openapi/swag v0.21.1
 	github.com/go-playground/validator/v10 v10.2.0
 	github.com/golang/mock v1.6.0
 	github.com/golang/protobuf v1.5.2
@@ -45,7 +43,12 @@ require (
 	github.com/openshift/api v3.9.1-0.20191111211345-a27ff30ebf09+incompatible
 	github.com/openshift/assisted-image-service v0.0.0-20220307202600-054a1afa8d28
 	github.com/openshift/assisted-service v1.0.10-0.20220223093655-7ada9949bf1d
-	github.com/openshift/hive/apis v0.0.0-20210506000654-5c038fb05190
+	github.com/openshift/client-go v0.0.0-20211209144617-7385dd6338e3
+	github.com/openshift/cloud-credential-operator v0.0.0-20200316201045-d10080b52c9e
+	github.com/openshift/cluster-api-provider-baremetal v0.0.0-20210924143856-c2d3ece4da38
+	github.com/openshift/cluster-api-provider-ibmcloud v0.0.0-20211008100740-4d7907adbd6b
+	github.com/openshift/cluster-api-provider-libvirt v0.2.1-0.20191219173431-2336783d4603
+	github.com/openshift/cluster-api-provider-ovirt v0.1.1-0.20220323121149-e3f2850dd519
 	github.com/openshift/library-go v0.0.0-20211214183058-58531ccbde67
 	github.com/openshift/machine-api-provider-nutanix v0.0.0-20220217170301-9c5eed11237a
 	github.com/openshift/machine-api-provider-powervs v0.0.0-20220303154846-89bb5bec120e
@@ -59,7 +62,7 @@ require (
 	github.com/shurcooL/vfsgen v0.0.0-20181202132449-6a9ea43bcacd
 	github.com/sirupsen/logrus v1.8.1
 	github.com/stretchr/testify v1.7.0
-	github.com/thoas/go-funk v0.9.1
+	github.com/terraform-providers/terraform-provider-nutanix v1.1.0
 	github.com/ulikunitz/xz v0.5.10
 	github.com/vincent-petithory/dataurl v1.0.0
 	github.com/vmware/govmomi v0.24.0
@@ -143,6 +146,8 @@ require (
 	github.com/go-openapi/loads v0.21.1 // indirect
 	github.com/go-openapi/runtime v0.23.0 // indirect
 	github.com/go-openapi/spec v0.20.4 // indirect
+	github.com/go-openapi/strfmt v0.21.2 // indirect
+	github.com/go-openapi/swag v0.21.1 // indirect
 	github.com/go-openapi/validate v0.20.3 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
@@ -185,6 +190,7 @@ require (
 	github.com/opencontainers/image-spec v1.0.2 // indirect
 	github.com/openshift/cluster-api v0.0.0-20190805113604-f8de78af80fc // indirect
 	github.com/openshift/custom-resource-status v1.1.0 // indirect
+	github.com/openshift/hive/apis v0.0.0-20210506000654-5c038fb05190 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/pierrec/lz4 v2.3.0+incompatible // indirect
 	github.com/pkg/xattr v0.4.1 // indirect
